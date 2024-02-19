@@ -58,3 +58,4 @@ class MoviesController < ApplicationController
     @movie = Movie.find(params.fetch(:id))
   end
 end
+
